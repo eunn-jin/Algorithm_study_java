@@ -1,6 +1,17 @@
 //숫자 문자열과 영단어
+package programmers;
+public class pg_1 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.solution("one4seveneight"));
+        System.out.println(s.solution("23four5six7"));
+        System.out.println(s.solution("2three45sixseven"));
+        System.out.println(s.solution("123"));
+    }
 
-class pg_1 {
+}
+
+class Solution{
     public int solution(String s) {
         String answer = "";
         int i=0;
