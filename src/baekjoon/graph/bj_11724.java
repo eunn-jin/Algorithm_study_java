@@ -1,5 +1,5 @@
 //연결 요소의 개수
-package baekjoon;
+package baekjoon.graph;
 
 import java.util.ArrayList;
 import java.util.Scanner;

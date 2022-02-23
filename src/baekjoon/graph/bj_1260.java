@@ -1,5 +1,5 @@
 //DFS와 BFS
-package baekjoon;
+package baekjoon.graph;
 
 import java.util.*;
 
