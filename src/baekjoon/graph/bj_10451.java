@@ -2,6 +2,7 @@ package baekjoon.graph;
 
 import java.util.Scanner;
 
+//순열 사이클
 public class bj_10451 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
