@@ -3,13 +3,13 @@ package programmers.level1;
 public class Main {
 
     public static void main(String[] args){
-        Solution5 so = new Solution5();
+        Solution11 so = new Solution11();
 
-        int[] arr = {1,1,3,3,0,1,1};
-        int[] arr2 = {4,4,4,3,3};
+        int n = 5;
+        int[] arr1 = {9, 20, 28, 18, 11};
+        int[] arr2 = {30, 1, 21, 17, 28};
 
-        System.out.println(so.solution(arr));
-        System.out.println(so.solution(arr2));
+        System.out.println(so.solution(n, arr1, arr2));
     }
 
 }
